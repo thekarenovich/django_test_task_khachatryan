@@ -1,0 +1,5 @@
+# POST request to create 3 quiz questions
+POST http://127.0.0.1:8000/quiz/create_quiz_question/
+Content-Type: application/x-www-form-urlencoded
+
+questions_num=3
